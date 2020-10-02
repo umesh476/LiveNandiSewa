@@ -1,0 +1,463 @@
+:root {
+    --font-color:#373D3F;
+    --nav-background:#00284d;
+    --theme-color:#cc6109;
+}
+
+@media screen and (min-width:851px) {
+    html{
+        font-size: 62.5%;
+    }
+.header-container{
+    display: flex;
+    padding: 1.5rem;
+    background: var(--nav-background);
+    align-items: center;
+    border-bottom: 0.1rem solid black;
+}
+.header-content{
+    width: 75%;
+    text-align: center;
+    font-size: 1.9rem;
+    color: white;
+}
+.header-space{
+    padding-left: 2rem;
+}
+.hindi-text{
+    font-size: 1.5rem;
+}
+.donate-link{
+    color: var(--font-color)
+}
+.donate-link:hover{
+    text-decoration: none;
+}
+.volunteers-link{
+    color: white;
+}
+.volunteers-link:hover{
+    text-decoration: none;
+    color: white;
+}
+
+.button-container{
+    display: flex;
+}
+.volunteer-button-container{
+    padding-left: 2rem;
+}
+.button-donate{
+    font-size: 1.5rem;
+}
+.button-volunteer{
+    font-size: 1.5rem;
+}
+.nav-bar{
+    background: var(--nav-background) !important;
+}
+    
+.link-container{
+display: flex;
+justify-content: space-around !important;
+width: 100%;
+align-items: center;
+height: 6rem;
+}
+.link{
+    color: #FFFFFF;
+    font-size: 1.7rem !important;
+    padding: 1rem 3rem;
+}
+
+.drop-down-container>a{
+    font-size: 1.7rem !important;
+    color: #FFFFFF !important;
+    padding: 0.8rem 3rem !important;
+}
+.drop-link-container{
+}
+.dropdown-menu{
+    width: 25rem;
+}
+
+.drop-down-item{
+    font-size: 1.6rem;
+    color: var(--font-color);
+    padding: 0.5rem 1rem;
+}
+.drop-down-item:hover{
+    color: var(--font-color);
+    text-decoration: none;
+}
+.drop-link-container:hover{
+    background: linear-gradient(160deg,#EBC944, #F26D21);
+}
+.link:hover{
+   background:linear-gradient(120deg,#EBC944, #F26D21);
+   border-radius: 2rem;
+   color: white;
+   text-decoration: none;
+}
+.drop-down-container>a:hover{
+    background:linear-gradient(120deg,#EBC944, #F26D21);
+    border-radius: 2rem;
+    color: white !important;
+}
+.selected-link{
+    background:linear-gradient(120deg,#EBC944, #F26D21);
+    border-radius: 2rem;
+    color: white;
+    text-decoration: none; 
+}
+.selected-dropdown-link{
+    background: linear-gradient(160deg,#EBC944, #F26D21);
+}
+.slide-image-container{
+    width: 100%;
+    /* height: 53rem; */
+}
+.slide-image{
+    width: 100% !important;
+    height: 65rem !important;
+    object-fit: fill;
+
+}
+.menu-bar-sticky{
+    position: -webkit-sticky !important;
+    position: sticky !important;
+    top: 0;
+
+}
+/* ################%%%%%%%$$$$$$$$$$ Menualllllllll$$$$$$$$$$$$$$$$$$$$$$*** */
+
+
+.header-mobile{
+    display: none !important;
+  }
+  .header-main-heading{
+      font-size: 4rem;
+      font-weight: 900;
+      width: 50rem;
+      color: var(--font-color)
+  }
+  .hindi-text{
+      font-weight: 600;
+      text-align: center;
+      width: 45rem;
+      color: var(--font-color);
+  }
+.footer-bg{
+    background: url(/assets/img/gallery/footer_bg.png);
+    background-repeat: no-repeat;
+}
+
+}
+
+
+
+
+/* ****************************************Tablet View ***************************************/
+@media screen and (min-width:451px) and (max-width:850px) {
+    html{
+        font-size: 55%;
+    }
+    .header-container{
+        /* display: flex; */
+        padding: 1.5rem;
+        background: #00284d;
+        border-bottom: 0.1rem solid black;
+    }
+    .header-content-container{
+        display: grid;
+    }
+    .header-content{
+        width: 100%;
+        text-align: center !important;
+        font-size: 1.9rem;
+        color: white;
+        padding-bottom: 1.2rem;
+    }
+    .hindi-text{
+        font-size: 1.5rem;
+    }
+    .button-container{
+        display: flex;
+        justify-content: center;
+    }
+    .volunteer-button-container{
+        padding-left: 2rem;
+    }
+    .button-donate{
+        font-size: 1.5rem;
+    }
+    .button-volunteer{
+        font-size: 1.5rem;
+    }
+    .nav-bar{
+        background: var(--nav-background) !important;
+        padding: 1.5rem !important;
+    }
+    .navbar-toggler{
+        border-color: aliceblue !important;
+        padding: 1rem 2rem !important;
+       } 
+    .navbar-toggler-icon{
+        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255,255,255, 0.5)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+    }     
+    .link-parent{
+        margin: 0.5rem;
+        padding: 0.5rem;
+
+    }
+    .link{
+        color: #ffffff;
+        font-size: 1.7rem !important;
+        padding-bottom: 1rem !important;
+    }
+    
+    .drop-down-container>a{
+        font-size: 1.7rem !important;
+        color: #FFFFFF !important;
+    }
+    .drop-down-item{
+        font-size: 1.6rem;
+        color: var(--font-color);
+        padding: 0.5rem 1rem;
+    }
+    .link-parent:hover{
+       background:linear-gradient(#EBC944, #F26D21);
+       color: white;
+       text-decoration: none;
+    }
+    .drop-down-container>a:hover{
+        background:linear-gradient(#EBC944, #F26D21);
+        color: white !important;
+    }
+    .mobile-selected{
+       background:linear-gradient(#EBC944, #F26D21);        
+    }
+    .selected-dropdown-link{
+        background: linear-gradient(160deg,#EBC944, #F26D21);
+    }
+    .slide-image{
+        width: 100% !important;
+        height: 52rem !important;
+        object-fit: cover;
+        object-position: 100%;
+        display: inline-block;
+    }
+    /* ################%%%%%%%$$$$$$$$$$ Menualllllllll$$$$$$$$$$$$$$$$$$$$$$*** */
+
+.header-main-heading{
+    font-size: 4rem;
+    font-weight: 900;
+    width: 46rem;
+    color: var(--font-color)
+}
+.hindi-text{
+    font-weight: 600;
+    text-align: center;
+    width: 45rem;
+    color: var(--font-color);
+}
+
+
+.header-mobile-container{
+    display: flex !important;
+}
+.header-mobile{
+    padding-right: 3.5rem !important;
+  }
+.menuicon{
+    font-size: 4.5rem !important;
+    color:#cc6109 !important;
+}
+.collapse-content-container{
+  margin-top: 3rem;
+}  
+.link-container{
+    padding-top: 1.2rem;
+}
+.collapse-link{
+    font-family: "Muli", sans-serif !important;
+    color:var(--font-color) !important;
+    font-size: 3rem !important;
+    font-weight: 700 !important;
+}
+.collapse-content-2{
+    display: flex;
+    justify-content: space-between;    
+}
+.dropdown-title{
+    font-family: "Muli", sans-serif !important;
+    color:var(--font-color) !important;
+    font-size: 3rem !important;
+    font-weight: 700 !important;
+}
+.expandicon{
+    font-size: 4rem !important;
+    font-weight: 700 !important;
+}
+.selected-color{
+    color: var(--theme-color) !important;
+}
+.collapse-content-child{
+    padding-left: 3rem;
+}
+.footer-bg{
+    background: url(/assets/img/gallery/footer_bg.png);
+    /* background-repeat: no-repeat; */
+}
+}
+
+
+
+
+@media screen and (max-width:450px) {
+    html{
+        font-size: 45%;
+    }
+    .header-container{
+        /* display: flex; */
+        padding: 1.5rem;
+        background: #00284d;
+        border-bottom: 0.1rem solid black;
+    }
+    .header-content-container{
+        display: grid;
+    }
+    .header-content{
+        width: 100%;
+        text-align: center;
+        font-size: 1.9rem;
+        color: white;
+        padding-bottom: 1.2rem;
+    }
+    .button-container{
+        display: flex;
+        justify-content: center;
+    }
+    .volunteer-button-container{
+        padding-left: 2rem;
+    }
+    .button-donate{
+        font-size: 1.5rem;
+    }
+    .button-volunteer{
+        font-size: 1.5rem;
+    }
+    .nav-bar{
+        background: var(--nav-background) !important;
+        padding: 1.5rem;
+    }
+   .navbar-toggler{
+    border-color: aliceblue !important;
+    padding: 0.5rem 1.3rem !important;
+   } 
+.navbar-toggler-icon{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255,255,255, 0.5)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+}
+    .link-parent{
+        margin: 0.5rem;
+        padding: 0.5rem;
+
+    }
+    .link{
+        color: #FFFFFF;
+        font-size: 1.7rem !important;
+        padding-bottom: 1rem !important;
+    }
+    
+    .drop-down-container>a{
+        font-size: 1.7rem !important;
+        color: #FFFFFF !important;
+    }
+    .drop-down-item{
+        font-size: 1.6rem;
+        color: var(--font-color);
+        padding: 0.5rem 1rem;
+    }
+    .link-parent:hover{
+       background:linear-gradient(#EBC944, #F26D21);
+       color: white;
+       text-decoration: none;
+    }
+    .drop-down-container>a:hover{
+        background:linear-gradient(#EBC944, #F26D21);
+        color: white !important;
+    }
+    .mobile-selected{
+       background:linear-gradient(#EBC944, #F26D21);        
+    }
+    .selected-dropdown-link{
+        background: linear-gradient(160deg,#EBC944, #F26D21);
+    }
+    .slide-image{
+        width: 100% !important;
+        height: 39rem !important;
+        object-fit: cover;
+        object-position: 100%;
+        display: inline-block;
+    }
+    /* ################%%%%%%%$$$$$$$$$$ Menualllllllll$$$$$$$$$$$$$$$$$$$$$$*** */
+
+
+.header-main-heading{
+    font-size: 3rem;
+    font-weight: 900;
+    color: var(--font-color)
+}
+.hindi-text{
+    font-weight: 600;
+    text-align: center;
+    color: var(--font-color);
+}
+
+.header-mobile-container{
+    display: flex !important;
+}
+.header-mobile{
+    padding-right: 3.5rem !important;
+  }
+.menuicon{
+    font-size: 4.5rem !important;
+    color: #cc6109 !important;
+}
+.collapse-content-container{
+  margin-top: 3rem;
+}  
+.link-container{
+    padding-top: 1.2rem;
+}
+.collapse-link{
+    font-family: "Muli", sans-serif !important;
+    color:var(--font-color) !important;
+    font-size: 2rem !important;
+    font-weight: 700 !important;
+}
+.collapse-content-2{
+    display: flex;
+    justify-content: space-between;    
+}
+.dropdown-title{
+    font-family: "Muli", sans-serif !important;
+    color:var(--font-color) !important;
+    font-size: 2rem !important;
+    font-weight: 700 !important;
+}
+.expandicon{
+    font-size: 4rem !important;
+    font-weight: 700 !important;
+}
+.selected-color{
+    color: var(--theme-color) !important;
+}
+.collapse-content-child{
+    padding-left: 3rem;
+}
+.footer-bg{
+    background: url(/assets/img/gallery/footer_bg.png);
+    /* background-repeat: no-repeat; */
+}
+}  

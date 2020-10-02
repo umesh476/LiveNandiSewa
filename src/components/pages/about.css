@@ -1,0 +1,239 @@
+:root {
+    --primary-color:#0D3D56;
+    --greyLight-1: #E4EBF5;
+    --greyLight-2: #c8d0e7;
+    --greyLight-3: #bec8e4;
+    --greyDark: #9baacf;
+    --greyDark-1: #BABECC;
+    --background-1:#EBECF0;
+  }
+
+@media screen and (min-width:851px) {
+    html{
+        font-size: 62.5%;
+    }
+   
+ .about-main-container{
+     background-image: url(/Slide2.jpeg);
+     background-attachment: fixed;
+     width: 100%;
+     /* background-position: center; */
+     /* object-fit: cover; */
+     background-repeat: no-repeat;
+     height: 36rem;
+    
+ }
+    
+.above-blur{    
+    background: rgba(0, 0, 0, 0.7);
+    height: 36rem;
+    z-index: 10;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+.rainbow {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 900;
+    font-family: monospace;
+    letter-spacing: 0.2rem;
+}
+.rainbow_text_animated {
+    background: linear-gradient(to right, #ffffff, #6666ff, #990000 , #00ff00, #ff3399, #6666ff, #ffffff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    animation: rainbow_animation 10s ease-in-out infinite;
+    background-size: 400% 100%;
+}
+
+@keyframes rainbow_animation {
+    0%,100% {
+        background-position: 0 0;
+    }
+
+    50% {
+        background-position: 100% 0;
+    }
+}
+
+.text-color-white{
+    color: white !important;
+}
+.heading-1{
+    font-size: 3rem;
+    font-weight: 900;
+}
+.about-container-1{
+    padding: 2rem;
+    background:  #f2f2f2;
+}
+.heading{
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--primary-color)
+}
+.parra{
+    font-size: 1.7rem;
+    color: var(--primary-color)
+}
+.bkw{
+    background: white;
+}
+}
+
+
+
+
+/* ****************************************Tablet View ***************************************/
+@media screen and (min-width:451px) and (max-width:850px) {
+    html{
+        font-size: 55%;
+    }
+    .about-main-container{
+        background-image: url(/Slide2.jpeg);
+        background-attachment: scroll;
+        width: 100%;
+        background-position: center;
+        object-fit: cover;
+        height: 20rem;
+    }
+       
+   .above-blur{    
+       padding: 2rem;
+       background: rgba(0, 0, 0, 0.5);
+       height: 20rem;
+       z-index: 10;
+       display: flex;
+       justify-content: space-around;
+       align-items: center;
+       flex-direction: column;
+   }
+   .rainbow {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 900;
+    font-family: monospace;
+    letter-spacing: 0.2rem;
+}
+.rainbow_text_animated {
+    background: linear-gradient(to right, #ffffff, #6666ff, #990000 , #00ff00, #ff3399, #6666ff, #ffffff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    animation: rainbow_animation 10s ease-in-out infinite;
+    background-size: 400% 100%;
+}
+
+@keyframes rainbow_animation {
+    0%,100% {
+        background-position: 0 0;
+    }
+
+    50% {
+        background-position: 100% 0;
+    }
+}
+    .text-color-white{
+        color: white !important;
+    }
+    .heading-1{
+        font-size: 3rem;
+        font-weight: 900;
+    }
+    .about-container-1{
+        padding: 2rem;
+        background:  #f2f2f2;
+    }
+    .heading{
+        font-size: 2rem;
+        font-weight: 700;
+        color: var(--primary-color)
+    }
+    .parra{
+        font-size: 1.7rem;
+        color: var(--primary-color)
+    }
+    .bkw{
+        background: white;
+    }
+
+}
+
+
+
+
+@media screen and (max-width:450px) {
+    html{
+        font-size: 45%;
+    }
+    .about-main-container{
+        background-image: url(/Slide2.jpeg);
+        background-attachment: fixed;
+        width: 100%;
+        object-fit: cover;
+        background-repeat: no-repeat;
+        background-position: 82% 100%;
+        height: 20rem;
+    }
+       
+   .above-blur{    
+       background: rgba(0, 0, 0, 0.5);
+       height: 20rem;
+       z-index: 10;
+       display: flex;
+       justify-content: space-around;
+       align-items: center;
+       flex-direction: column;
+   }
+   .rainbow {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 900;
+    font-family: monospace;
+    letter-spacing: 0.2rem;
+}
+.rainbow_text_animated {
+    background: linear-gradient(to right, #ffffff, #6666ff, #990000 , #00ff00, #ff3399, #6666ff, #ffffff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    animation: rainbow_animation 10s ease-in-out infinite;
+    background-size: 400% 100%;
+}
+
+@keyframes rainbow_animation {
+    0%,100% {
+        background-position: 0 0;
+    }
+
+    50% {
+        background-position: 100% 0;
+    }
+}
+    .text-color-white{
+        color: white !important;
+    }
+    .heading-1{
+        font-size: 2.5rem;
+        font-weight: 900;
+    }
+    .about-container-1{
+        padding: 2rem;
+        background:  #f2f2f2;
+    }
+    .heading{
+        font-size: 2.5rem;
+        font-weight: 700;
+        color: var(--primary-color)
+    }
+    .parra{
+        font-size: 2rem;
+        color: var(--primary-color)
+    }
+    .bkw{
+        background: white;
+    }
+}  

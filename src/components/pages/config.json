@@ -1,0 +1,46 @@
+{"navs":[{"to":"/home","title":"Home"},{"to":"/about","title":"About NSS"},
+    {"dropdown":{"title":"Initiatives","child":[{"to":"/nandisamarth","title":"Nandi Samarth"},
+    {"to":"/protsahan","title":"Protsahan"},
+    {"to":"/shagun","title":"Shagun"},
+    {"to":"/samarpan","title":"Samarpan"},
+    {"to":"/sanskritisahyog","title":"Sanskritik Sahyog"},
+    {"to":"/aayogya","title":"Aayogya"},
+    {"to":"/annakshetra","title":"Annakshetra(Mass Kitchen)"}
+    ]}}
+    ,{"to":"/joining","title":"Joining Us"}
+],
+"volunteers":[{"name":"ABHILASHA  NANDI","profile":"PRESIDENT"},
+    {"name":"SUBHASH BAJPAYEE","profile":"VICE PRESIDENT"},
+    {"name":"ABHISHEK GUPTA","profile":"SECRETARY"},
+    {"name":"RAVIKANT GUPTA","profile":"TREASURER"},
+    {"name":"KANHIYA LAL GUPTA","profile":"MEMBER"},
+    {"name":"MANOJ GUPTA ","profile":"MEMBER"},
+    {"name":"PRIYANKA RANI","profile":"MEMBER"},
+    {"name":"ARUN KESHARWANI ","profile":"MEMBER"},
+    {"name":"PANKAJ GUPTA","profile":"MEMBER"},
+    {"name":"KUNVERJI KESHARWANI","profile":"MEMBER"},
+    {"name":"SHYAM KESHRI","profile":"MEMBER"},
+    {"name":"SHAKEEL AHMAD","profile":"MEMBER"},
+    {"name":"VIRATBAJPAYEE","profile":"MEMBER"},
+    {"name":"GAURAV AGGARWAL","profile":"MEMBER"},
+    {"name":"HARSH KESHRI ","profile":"MEMBER"}
+
+],
+"members":[{"name":"ABHILASHA  NANDI","profile":"PRESIDENT"},
+    {"name":"SUBHASH BAJPAYEE","profile":"VICE PRESIDENT"},
+    {"name":"ABHISHEK GUPTA","profile":"SECRETARY"},
+    {"name":"RAVIKANT GUPTA","profile":"TREASURER"},
+    {"name":"KANHIYA LAL GUPTA","profile":"MEMBER"},
+    {"name":"MANOJ GUPTA ","profile":"MEMBER"},
+    {"name":"PRIYANKA RANI","profile":"MEMBER"},
+    {"name":"ARUN KESHARWANI ","profile":"MEMBER"},
+    {"name":"PANKAJ GUPTA","profile":"MEMBER"},
+    {"name":"KUNVERJI KESHARWANI","profile":"MEMBER"},
+    {"name":"SHYAM KESHRI","profile":"MEMBER"},
+    {"name":"SHAKEEL AHMAD","profile":"MEMBER"},
+    {"name":"VIRATBAJPAYEE","profile":"MEMBER"},
+    {"name":"GAURAV AGGARWAL","profile":"MEMBER"},
+    {"name":"HARSH KESHRI ","profile":"MEMBER"}
+]
+  
+}
