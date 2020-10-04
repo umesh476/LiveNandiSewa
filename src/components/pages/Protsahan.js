@@ -1,6 +1,11 @@
 import React, { Component } from 'react'
 import Header from '../common/Header';
+import AOS from 'aos';
 import navData from "./config.json";
+import Card from '@material-ui/core/Card';
+import CardActionArea from '@material-ui/core/CardActionArea';
+import CardContent from '@material-ui/core/CardContent';
+
 import "./protsahan.css";
 import Slider from '../common/Slider';
 import slide1 from "./images/Protsahan/protsahan1.jpg"
@@ -37,6 +42,18 @@ import slide31 from "./images/Protsahan/protsahan31.jpg"
 
 class Protsahan extends Component {
     state = {  }
+    componentDidMount=()=>{
+        AOS.init({
+            offset:80,
+            delay:20,
+            duration:1000,
+            easing:"ease-in-out",
+            mirror:true,
+            once:false,
+            // desable:"mobile"
+         })
+    }
+    
     render() { 
         let slides=[{photo:slide1},{photo:slide2},{photo:slide3},{photo:slide4},{photo:slide5},{photo:slide6},
             {photo:slide7},{photo:slide8},{photo:slide9},{photo:slide10},{photo:slide11},{photo:slide12},{photo:slide13},
@@ -47,12 +64,32 @@ class Protsahan extends Component {
         return ( 
             <div>
                  <Header />
-                <div>
-                    <Slider slides={slides}/>
+                 <div className="service-area section-padding30">
+                    <div class="section-tittle text-center mb-60">
+                        <h2 className="text-center">Protsahan</h2>
+                    </div>
+                <div className="img-container">
+                    {slides && slides.map((ele,index)=>{
+                        return(
+                            <Card data-aos="zoom-in">
+                                <CardActionArea>
+                                    <div className="img-wrapper">
+                                    <img src={ele.photo} className="nandi-smarth-photo inner-img"/>
+                                    </div>
+                                <CardContent className="swap-top">
+                                <h1 className="nandi-smarth-heading head-parra">
+                                    Protsahan
+                                </h1>
+                                <p className="nandi-smarth-parra head-parra">
+                                It is an initiative to encourage bright 
+                                young minds and competitive students to set standards for others in the society
+                                </p>
+                                </CardContent>    
+                                </CardActionArea>
+                            </Card>
+                        )
+                    })}
                 </div>
-                <div className="protsahan-main-container">
-                     <h2 className="protsahan-content-heading">Protsahan :</h2>
-                    <p className="protsahan-content-parra">It is an initiative to encourage bright young minds and competitive students to set standards for others in the society.</p>
                 </div>
             </div>
          );

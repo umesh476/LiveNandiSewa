@@ -1,22 +1,73 @@
 :root {
     --primary-color:#0D3D56;
+    --theme-color:#cc6109;
+    --font-color:  #64676c;
   }
 
 @media screen and (min-width:851px) {
     html{
         font-size: 62.5%;
     }
-.samarpan-main-container{
-    padding: 2rem;
+.nandi-smarth-photo{
+    width: 100%;
+    height: 30rem;
 }
-.samarpan-content-heading{
+.img-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 3rem;
+    padding: 6rem;
+}
+.img-wrapper {  
+    overflow: hidden; 
+  }
+.inner-img {
+    transition: 0.3s;
+  }
+  
+  .inner-img:hover {
+    transform: scale(1.2);
+  }
+.swap-top{
+    position: relative;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-transition: color 1000ms;
+  transition: color 1000ms;
+}
+.swap-top:hover:before {
+    -webkit-transform: scaleY(1);
+    transform: scaleY(1);
+  }
+.swap-top:before{
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: var(--theme-color);
+    -webkit-transform: scaleY(0);
+    transform: scaleY(0);
+    -webkit-transform-origin: 50% 100%;
+    transform-origin: 50% 100%;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition: 300ms ease-out;
+    transition: 300ms ease-out;
+}
+.nandi-smarth-heading{
     font-size: 2rem;
-    font-weight: bold;
     color: var(--primary-color);
+    font-weight: 800;
 }
-.samarpan-content-parra{
-    font-size: 1.7rem;
-    color: var(--primary-color);
+.nandi-smarth-parra{
+    font-size: 1.6rem;
+    color: var(--font-color)
+}
+.swap-top:hover .head-parra{
+    color:white ;
 }
 }
 
@@ -28,17 +79,67 @@
     html{
         font-size: 55%;
     }
-    .samarpan-main-container{
-        padding: 2rem;
+    .nandi-smarth-photo{
+        width: 100%;
+        height: 25rem;
     }
-    .samarpan-content-heading{
+    .img-container{
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-gap: 3rem;
+        padding: 6rem;
+    }
+    .img-wrapper {  
+        overflow: hidden; 
+      }
+    .inner-img {
+        transition: 0.3s;
+      }
+      
+      .inner-img:hover {
+        transform: scale(1.2);
+      }
+    .swap-top{
+        position: relative;
+      -webkit-transform: translateZ(0);
+      transform: translateZ(0);
+      -webkit-transition: color 1000ms;
+      transition: color 1000ms;
+    }
+    .swap-top:hover:before {
+        -webkit-transform: scaleY(1);
+        transform: scaleY(1);
+      }
+    .swap-top:before{
+        content: "";
+        position: absolute;
+        z-index: -1;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: var(--theme-color);
+        -webkit-transform: scaleY(0);
+        transform: scaleY(0);
+        -webkit-transform-origin: 50% 100%;
+        transform-origin: 50% 100%;
+        -webkit-transition-property: transform;
+        transition-property: transform;
+        -webkit-transition: 300ms ease-out;
+        transition: 300ms ease-out;
+    }
+    .nandi-smarth-heading{
         font-size: 2rem;
-        font-weight: bold;
         color: var(--primary-color);
+        font-weight: 800;
     }
-    .samarpan-content-parra{
-        font-size: 1.7rem;
-        color: var(--primary-color);
+    .nandi-smarth-parra{
+        font-size: 1.6rem;
+        color: var(--font-color)
+       
+    }
+    .swap-top:hover .head-parra{
+        color:white ;
     }
 }
 
@@ -49,16 +150,66 @@
     html{
         font-size: 45%;
     }
-    .samarpan-main-container{
-        padding: 2rem;
+    .nandi-smarth-photo{
+        width: 100%;
+        height: 30rem;
     }
-    .samarpan-content-heading{
+    .img-container{
+        display: grid;
+        grid-template-columns: auto;
+        grid-gap: 3rem;
+        padding: 3rem;
+    }
+    .img-wrapper {  
+        overflow: hidden; 
+      }
+    .inner-img {
+        transition: 0.3s;
+      }
+      
+      .inner-img:hover {
+        transform: scale(1.2);
+      }
+    .swap-top{
+        position: relative;
+      -webkit-transform: translateZ(0);
+      transform: translateZ(0);
+      -webkit-transition: color 1000ms;
+      transition: color 1000ms;
+    }
+    .swap-top:hover:before {
+        -webkit-transform: scaleY(1);
+        transform: scaleY(1);
+      }
+    .swap-top:before{
+        content: "";
+        position: absolute;
+        z-index: -1;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: var(--theme-color);
+        -webkit-transform: scaleY(0);
+        transform: scaleY(0);
+        -webkit-transform-origin: 50% 100%;
+        transform-origin: 50% 100%;
+        -webkit-transition-property: transform;
+        transition-property: transform;
+        -webkit-transition: 300ms ease-out;
+        transition: 300ms ease-out;
+    }
+    .nandi-smarth-heading{
         font-size: 2rem;
-        font-weight: bold;
         color: var(--primary-color);
+        font-weight: 800;
     }
-    .samarpan-content-parra{
-        font-size: 1.7rem;
-        color: var(--primary-color);
+    .nandi-smarth-parra{
+        font-size: 1.6rem;
+        color: var(--font-color)
+       
+    }
+    .swap-top:hover .head-parra{
+        color:white ;
     }
 }  
